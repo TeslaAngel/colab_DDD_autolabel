@@ -1,5 +1,5 @@
 # clone github repo (including the dataset)
-!git clone https://github.com/TeslaAngel/yolov5_drowsiness_detection.git
+!git clone https://github.com/TeslaAngel/colab_DDD_autolabel
 
 # install autodistill
 !pip install -q \
@@ -16,7 +16,7 @@ print(HOME)
 # NOW LABELING AWAKE IMAGES
 
 # directory for "awake" images (#SUBJECT_TO_CHANGE)
-IMAGE_DIR_PATH = f"{HOME}/images_awake_2"
+IMAGE_DIR_PATH = f"{HOME}/colab_DDD_autolabel/images_awake_2"
 #!mkdir {HOME}/images
 #IMAGE_DIR_PATH = f"{HOME}/images"
 
