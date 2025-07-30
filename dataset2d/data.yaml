@@ -1,0 +1,5 @@
+names:
+- drowsy
+nc: 1
+train: /content/dataset2d/train/images
+val: /content/dataset2d/valid/images
